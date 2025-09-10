@@ -19,7 +19,7 @@ export default async function BlogDetails({params}) {
                     </div>
                     <div className="post-content-single">
                         <span className="post-category-single">{blog.title}</span>
-                        <h3 className="post-title-single">{blog.content}</h3>
+                        <h3 className="post-title-single">{blog.body}</h3>
                         <p className="post-excerpt-single">Exploring the latest trends and technologies that are shaping the future of web development.</p>
                         <div className="post-meta-single">
                             <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1160&q=80" alt="Author" />
