@@ -1,5 +1,6 @@
 
 import "../global/css/blogs.css";
+import Image from 'next/image';
 
 export default async function Blogs() {
   // Use relative fetch (works both dev and prod)

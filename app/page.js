@@ -3,6 +3,11 @@ import "./global/css/home.css";
 import Blogs from "./blogs/page";
 import Category from "./category/page";
 import "./global/css/category.css";
+import "./global/css/newsletter.css";
+import Newsletter from "./newsletter/page";
+import "./global/css/common.css";
+
+
 
 
 export default function Home() {
@@ -22,6 +27,8 @@ export default function Home() {
 
       <Blogs />
       <Category />
+      <Newsletter />
+      
     </div>
 
     

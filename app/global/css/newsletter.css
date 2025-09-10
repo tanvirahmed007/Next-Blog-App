@@ -1,0 +1,44 @@
+.newsletter {
+    background: linear-gradient(135deg, #4361ee 0%, #3a0ca3 100%);
+    padding: 60px 0;
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    margin-bottom: 60px;
+}
+
+.newsletter h2 {
+    margin-bottom: 20px;
+}
+
+.newsletter p {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    opacity: 0.9;
+}
+
+.newsletter-form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.newsletter-input {
+    flex: 1;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 50px 0 0 50px;
+    font-size: 1rem;
+    background-color: aliceblue;
+    color: #333;
+}
+
+.newsletter-form button {
+    background: #ff9e00;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 0 50px 50px 0;
+    cursor: pointer;
+    font-weight: 500;
+}

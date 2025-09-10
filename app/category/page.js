@@ -2,11 +2,11 @@
 
 export default function Category() {
   return (
-    <div>
+    <div className="category">
         <section className="categories">
             <div className="container">
                 <h2 className="section-title">Explore Categories</h2>
-                <div className="category-grid">
+                <div className="category-grid container mr-auto ml-auto">
                     <div className="category-card">
                         <i className="fas fa-laptop-code"></i>
                         <h3>Technology</h3>
