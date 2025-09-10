@@ -1,13 +1,29 @@
 import Image from "next/image";
+import "./global/css/home.css";
+import Blogs from "./blogs/page";
+import Category from "./category/page";
+import "./global/css/category.css";
+
 
 export default function Home() {
   return (
-    <main className="flex-grow container px-4 py-8">
-      <h1 className="text-4xl font-bold mb-6">Welcome to the Blog App</h1>
-      <p className="text-lg mb-4">
-        This is a simple blog application built with Next.js and Tailwind CSS.
-      </p>
-      
-    </main>
+    // <!-- Hero Section -->
+    <div>
+      <section className="hero">
+        <div className="container">
+            <h1>Discover stories, thinking, and expertise</h1>
+            <p>BlogSpace is a place to read, write, and connect with the world's best ideas and voices.</p>
+            <div className="search-bar">
+                <input type="text" placeholder="Search for articles..." />
+                <button>Search</button>
+            </div>
+        </div>
+      </section>
+
+      <Blogs />
+      <Category />
+    </div>
+
+    
   );
 }

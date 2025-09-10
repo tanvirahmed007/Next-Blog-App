@@ -1,13 +1,16 @@
 
 import "./globals.css";
+import Navbar from "./navbar/page";
+
 
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className="bg-gray-100 text-gray-900 min-h-screen flex flex-col"
+        className="main-body"
       >
+        <Navbar />
         {children}
       </body>
     </html>
