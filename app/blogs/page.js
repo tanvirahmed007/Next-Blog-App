@@ -4,8 +4,13 @@ import Image from 'next/image';
 
 export default async function Blogs() {
   // Use relative fetch (works both dev and prod)
-  const res = await fetch("http://localhost:3000/api/blogs", { cache: "no-store" });
-  const blogs = await res.json();
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "";
+  const res = await fetch(`${baseUrl}/api/blogs`, { cache: "no-store" });
+    const blogs = await res.json();
+
+  if (!res.ok) {
+    throw new Error("Failed to fetch blogs");
+  }
 
   return (
     <main className="p-6">
