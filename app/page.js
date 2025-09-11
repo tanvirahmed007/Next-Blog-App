@@ -17,7 +17,7 @@ export default function Home() {
       <section className="hero">
         <div className="container">
             <h1>Discover stories, thinking, and expertise</h1>
-            <p>BlogSpace is a place to read, write, and connect with the world's best ideas and voices.</p>
+            <p>BlogSpace is a place to read, write, and connect with the worlds best ideas and voices.</p>
             <div className="search-bar">
                 <input type="text" placeholder="Search for articles..." />
                 <button>Search</button>

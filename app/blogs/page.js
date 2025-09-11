@@ -20,7 +20,7 @@ export default async function Blogs() {
             <a key={blog.id} href={`/blogs/${blog.id}`} className="block p-4 rounded-lg">
               <div className="post-card">
                 <div className="post-image">
-                  <img
+                  <Image
                     src={blog.img}
                     alt="Blog post"
                     width={1170}
@@ -35,7 +35,7 @@ export default async function Blogs() {
                     {blog.content}
                   </p>
                   <div className="post-meta flex items-center gap-2 mt-3">
-                    <img
+                    <Image
                       src={blog.img}
                       alt="Author"
                       width={40}
